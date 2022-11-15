@@ -1,0 +1,10 @@
+database_type: postgres
+contract_type: regular
+abi:
+  path: contract.abi
+  events:
+  - name: Approval
+  - name: Transfer
+  methods:
+  - name: approve
+  - name: transfer
